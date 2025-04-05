@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Lato:ital@1&family=Oswald&family=Poppins&family=Roboto:ital@1&display=swap');
+
+/*Roboto,Lato,Poppins,Oswald,Inconsolata*/
+
+*
+{
+    margin: 0;
+    padding:0;
+}
+
+#main
+{
+     width: 1400px;
+     height: auto;
+     margin: 0px auto; /*top-bottom  left-right*/
+}
+
+header
+{
+    position:relative ;
+    top: 5px;
+    left: 80px;
+    width: 1200px;
+    height: 120px;
+}
+
+#logo
+{
+    position: absolute;
+    top: 28px;
+  
+}
+
+#menu
+{
+    position: absolute;
+    top: 25px;
+    right: 10px;
+}
+#menu ul
+{
+    list-style-type: none;
+}
+
+#menu ul li
+{
+    float: left;
+    width: 100px;
+    height: 40px;
+    margin-right: 7px;
+    text-align: center;
+    line-height: 60px;
+    font-family:Oswald;
+}
+
+#menu ul li a
+{
+    display: block;
+    color: maroon;
+    text-decoration: none;
+}
+
+#menu ul li a:hover
+{
+    color: white;
+    background-color: maroon;
+}
+
+#background3
+{
+    position: relative;
+    width: 1300px;
+    background-color: rgb(170, 116, 61);
+    top: 0px;
+    height: 100px;
+    left: 0px;
+}
+#background3 h1
+{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    right:5px;
+    font-size: 60px;
+    top: 25px;
+}
+
+#gallery1
+{
+    position: relative;
+    top: 60px;
+    left: 80px;
+    width: 250px;
+    height: 300px;
+    border: 3px solid rgba(103, 234, 103, 0.918);
+    text-align: center;
+    float: left;
+    margin-right: 40px;
+}
+
+#gallery2
+{
+    position: relative;
+    top: 90px;
+    left: 80px;
+    width: 250px;
+    height: 300px;
+    border: 3px solid rgba(103, 234, 103, 0.918);
+    text-align: center;
+    float: left;
+    margin-right: 40px;
+}
+
+#gallery3
+{
+    position: relative;
+    top: 120px;
+    left: 80px;
+    width: 250px;
+    height: 300px;
+    border: 3px solid rgba(103, 234, 103, 0.918);
+    text-align: center;
+    float: left;
+    margin-right: 40px;
+}
+
+#gallery4
+{
+    position: relative;
+    top: 150px;
+    left: 80px;
+    width: 250px;
+    height: 300px;
+    border: 3px solid rgba(103, 234, 103, 0.918);
+    text-align: center;
+    float: left;
+    margin-right: 40px;
+}
+
+
+#background
+{
+    position: relative;
+    top: 1400px;
+    width: 1300px;
+    height: 400px;
+    background-color: black;
+}
+
+#background img 
+{
+    position: absolute;
+    left: 60px;
+    top: 40px;
+
+}
+
+#background p
+{
+    position: absolute;
+    left: 60px;
+    top: 190px;
+    width: 300px;
+}
+
+#use 
+{
+    position: absolute;
+    left: 430px;
+    width: 350px;
+    top: 50px;
+    font-size: 21px;
+    
+}
+#loc 
+{
+    position: absolute;
+    left: 700px;
+    width: 250px;
+    font-size: 24px;
+    top: 50px;
+  
+    
+}
+#loc ul
+{
+    list-style-type: none;
+    font-size: 20px;
+    text-align: left;
+    
+}
+
+#socmedia 
+{
+    position: absolute;
+    top: 200px;
+    width: 250px;
+    right: 20px;
+}
+
+#designby
+{
+    position: absolute;
+    top: 350px;
+    width: 280px;
+    right: 10px;
+    font-size: 25px;
+}
+
+

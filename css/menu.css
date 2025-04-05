@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Lato:ital@1&family=Oswald&family=Poppins&family=Roboto:ital@1&display=swap');
+
+/*Roboto,Lato,Poppins,Oswald,Inconsolata*/
+
+*
+{
+    margin: 0;
+    padding:0;
+}
+
+#main
+{
+     width: 1400px;
+     height: auto;
+     margin: 0px auto; /*top-bottom  left-right*/
+}
+
+header
+{
+    position:relative ;
+    top: 5px;
+    left: 80px;
+    width: 1200px;
+    height: 120px;
+}
+
+#logo
+{
+    position: absolute;
+    top: 28px;
+  
+}
+
+#menu
+{
+    position: absolute;
+    top: 15px;
+    right: 10px;
+}
+#menu ul
+{
+    list-style-type: none;
+}
+
+#menu ul li
+{
+    float: left;
+    width: 100px;
+    height: 40px;
+    margin-right: 7px;
+    text-align: center;
+    line-height: 60px;
+    font-family:Oswald;
+}
+
+#menu ul li a
+{
+    display: block;
+    color: maroon;
+    text-decoration: none;
+}
+
+#menu ul li a:hover
+{
+    color: white;
+    background-color: maroon;
+}
+
+/* end of header section*/
+ 
+#hbanner1
+{
+    position: relative;
+    top: 5px;
+    left: 0px;
+    width: 1400px;
+    height: 500px;
+}
+#background2
+{
+    position: relative;
+    width: 1300px;
+    background-color: rgb(170, 116, 61);
+    top: 1px;
+    height: 100px;
+    left: 0px;
+}
+#background2 h1
+{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    right:5px;
+    font-size: 60px;
+    top: 30px;
+}
+
+#break
+{
+    position: relative;
+    top: 10px;
+    height: 5px;
+    left: 20px;
+    font-size: 22px;
+}
+#para
+{
+    position: relative;
+    top: 50px;
+    height: 30px;
+    left: 20px;
+    font-size: 20px;
+    width: 600px;
+    text-align: justify;
+}
+#breakimg
+{
+    position: relative;
+    top: 10px; 
+    left: 670px;
+    width: 700px;
+    height: 20px;
+}
+
+#prices
+{
+    position: relative;
+    top: 250px;
+    left: 35px;
+    height: 50px;
+    width: 800px;
+    font-size: 30px;
+    font-style: italic;
+    
+}
+#prices button
+{
+    position: relative;
+    top: 5px;
+    left: 7px;
+    height: 18px;
+    width: 100px;
+    border: 3px solid rgba(13, 21, 13, 0.918);
+}
+#prices button:hover
+{
+    background-color:  darkorange;
+}
+
+#drinkingimg
+{
+    position: relative;
+    width: 700px;
+    height: 20px;
+    left: 18px;
+    top: 630px;
+}
+
+#drinking1
+{
+    position: relative;
+    top: 550px;
+    height: 5px;
+    left: 710px;
+    font-size: 22px;
+}
+
+#para1
+{
+    position: relative;
+    top: 600px;
+    height: 30px;
+    left: 700px;
+    font-size: 20px;
+    width: 600px;
+    text-align: justify;
+}
+#prices1
+{
+    position: relative;
+    top: 850px;
+    left: 705px;
+    height: 50px;
+    width: 800px;
+    font-size: 30px;
+    font-style: italic;
+}
+#prices1 button
+{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    height: 20px;
+    width: 100px;
+    border: 3px solid black;
+}
+#prices1 button:hover
+{
+    background-color:  darkorange;
+}
+
+#desserts1
+{
+    position: relative;
+    top: 1170px;
+    height: 5px;
+    left: 30px;
+    font-size: 22px;
+}
+#para2
+{
+    position: relative;
+    text-align: justify;
+    top: 1210px;
+    height: 30px;
+    left: 25px;
+    font-size: 20px;
+    width: 600px;
+    
+}
+#dessert
+{
+    position: relative;
+    top: 1175px; 
+    left: 670px;
+    width: 700px;
+    height: 20px;  
+}
+#prices2
+{
+    position: relative;
+    top: 1410px;
+    left: 35px;
+    height: 50px;
+    width: 800px;
+    font-size: 30px;
+    font-style: italic;  
+}
+#prices2 button
+{
+    position: relative;
+    top: 10px;
+    left: 7px;
+    height: 20px;
+    width: 100px;
+    border: 3px solid rgba(13, 21, 13, 0.918);
+}
+#prices2 button:hover
+{
+    background-color:  darkorange;
+}
+
+#background
+{
+    position: relative;
+    top: 1680px;
+    width: 1320px;
+    height: 400px;
+    background-color: black;
+}
+
+#background img 
+{
+    position: absolute;
+    left: 60px;
+    top: 40px;
+
+}
+
+#background p
+{
+    position: absolute;
+    left: 60px;
+    top: 190px;
+    width: 300px;
+}
+
+#use 
+{
+    position: absolute;
+    left: 430px;
+    width: 350px;
+    top: 50px;
+    font-size: 21px;
+    
+}
+#loc 
+{
+    position: absolute;
+    left: 700px;
+    width: 250px;
+    font-size: 24px;
+    top: 50px;
+  
+    
+}
+#loc ul
+{
+    list-style-type: none;
+    font-size: 20px;
+    text-align: left;
+    
+}
+
+#socmedia 
+{
+    position: absolute;
+    top: 200px;
+    width: 250px;
+    right: 20px;
+}
+
+#designby
+{
+    position: absolute;
+    top: 350px;
+    width: 280px;
+    right: 10px;
+    font-size: 25px;
+}
